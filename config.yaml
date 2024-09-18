@@ -14,9 +14,7 @@ teams:
       - jack-berg
       - trask
     members:
-      - LikeTheSalad
       - bidetofevil
-      - breedx-splk
       - marandaneto
   - name: android-maintainers
     maintainers:
@@ -63,12 +61,9 @@ teams:
     members:
       - TylerHelmuth
       - atoulme
-      - codeboten
       - djaglowski
-      - dmitryax
       - evan-bradley
       - jpkrohling
-      - mx-psi
       - songy23
   - name: collector-contrib-approvers
     maintainers:
@@ -83,21 +78,12 @@ teams:
       - jpkrohling
       - mx-psi
     members:
-      - MovieStoreGuy
-      - TylerHelmuth
-      - andrzej-stencel
       - atoulme
       - bryan-aguilar
-      - codeboten
       - crobert-1
       - dashpole
-      - djaglowski
-      - dmitryax
-      - evan-bradley
       - fatsheep9146
-      - jpkrohling
       - mwear
-      - mx-psi
       - songy23
   - name: collector-contrib-maintainers
     maintainers:
@@ -127,22 +113,13 @@ teams:
     members:
       - Frapschen
       - JaredTan95
-      - MovieStoreGuy
-      - TylerHelmuth
-      - andrzej-stencel
       - atoulme
       - bryan-aguilar
-      - codeboten
       - crobert-1
       - dashpole
-      - djaglowski
-      - dmitryax
-      - evan-bradley
       - fatsheep9146
       - frzifus
-      - jpkrohling
       - mwear
-      - mx-psi
       - songy23
   - name: collector-maintainers
     maintainers:
@@ -162,12 +139,9 @@ teams:
       - TylerHelmuth
       - andrzej-stencel
       - atoulme
-      - codeboten
       - djaglowski
-      - dmitryax
       - evan-bradley
       - jpkrohling
-      - mx-psi
       - songy23
   - name: configuration-maintainers
     maintainers:
@@ -184,10 +158,6 @@ teams:
       - lalitb
       - marcalff
     members:
-      - ThomsonTan
-      - esigo
-      - lalitb
-      - marcalff
       - owent
   - name: cpp-contrib-approvers
     maintainers:
@@ -200,10 +170,7 @@ teams:
       - DebajitDas
       - ThomsonTan
       - TomRoSystems
-      - esigo
       - kpratyus
-      - lalitb
-      - marcalff
       - maxgolov
       - pyohannes
       - seemk
@@ -232,9 +199,6 @@ teams:
     members:
       - cedricziel
       - fatsheep9146
-      - julianocosta89
-      - mviitane
-      - puckpuck
       - rogercoll
       - wph95
   - name: demo-maintainers
@@ -252,11 +216,9 @@ teams:
       - theletterf
     members:
       - cartermp
-      - chalin
       - mhausenblas
       - svrnm
       - tedsuo
-      - theletterf
       - tiffany76
   - name: docs-cn-approvers
     maintainers:
@@ -264,8 +226,6 @@ teams:
       - tensorchen
     members:
       - addname
-      - sunface
-      - tensorchen
       - tydhot
   - name: docs-cn-maintainers
     maintainers:
@@ -274,19 +234,14 @@ teams:
     members: []
   - name: docs-ja-approvers
     maintainers:
-      - austinlparker
       - cartermp
       - chalin
       - svrnm
     members:
-      - cartermp
-      - chalin
       - katzchang
-      - svrnm
       - ymotongpoo
   - name: docs-ja-maintainers
     maintainers:
-      - austinlparker
       - cartermp
       - chalin
       - svrnm
@@ -301,20 +256,15 @@ teams:
     members: []
   - name: docs-zh-approvers
     maintainers:
-      - austinlparker
       - cartermp
       - chalin
       - reyang
       - svrnm
     members:
-      - cartermp
-      - chalin
       - my-git9
-      - svrnm
       - windsonsea
   - name: docs-zh-maintainers
     maintainers:
-      - austinlparker
       - cartermp
       - chalin
       - svrnm
@@ -325,9 +275,7 @@ teams:
       - alanwest
       - reyang
     members:
-      - CodeBlanch
       - Kielek
-      - alanwest
       - cijothomas
       - utpilla
       - vishweshbankwar
@@ -338,12 +286,7 @@ teams:
       - alanwest
       - cijothomas
       - vishweshbankwar
-    members:
-      - CodeBlanch
-      - Kielek
-      - alanwest
-      - cijothomas
-      - vishweshbankwar
+    members: []
   - name: dotnet-contrib-maintainers
     maintainers:
       - CodeBlanch
@@ -360,12 +303,8 @@ teams:
       - utpilla
       - vishweshbankwar
     members:
-      - CodeBlanch
       - Kielek
-      - alanwest
-      - cijothomas
       - martinjt
-      - vishweshbankwar
   - name: dotnet-instrumentation-approvers
     maintainers:
       - Kielek
@@ -375,14 +314,8 @@ teams:
       - rajkumar-rangaraj
       - zacharycmontoya
     members:
-      - Kielek
       - RassK
       - lachmatt
-      - nrcventura
-      - pellared
-      - pjanotti
-      - rajkumar-rangaraj
-      - zacharycmontoya
   - name: dotnet-instrumentation-maintainers
     maintainers:
       - Kielek
@@ -401,14 +334,8 @@ teams:
       - rajkumar-rangaraj
       - zacharycmontoya
     members:
-      - Kielek
       - RassK
       - lachmatt
-      - nrcventura
-      - pellared
-      - pjanotti
-      - rajkumar-rangaraj
-      - zacharycmontoya
   - name: dotnet-maintainers
     maintainers:
       - CodeBlanch
@@ -420,9 +347,7 @@ teams:
       - alanwest
       - reyang
     members:
-      - CodeBlanch
       - Kielek
-      - alanwest
       - cijothomas
       - martinjt
       - utpilla
@@ -435,11 +360,7 @@ teams:
       - tsloughter
     members:
       - GregMefford
-      - bryannaegele
-      - deadtrickster
       - ferd
-      - hauleth
-      - tsloughter
       - zachdaniel
   - name: erlang-contrib-approvers
     maintainers:
@@ -449,11 +370,7 @@ teams:
       - tsloughter
     members:
       - GregMefford
-      - bryannaegele
-      - deadtrickster
       - ferd
-      - hauleth
-      - tsloughter
       - whatyouhide
       - zachdaniel
   - name: erlang-contrib-maintainers
@@ -477,13 +394,7 @@ teams:
       - dmathieu
       - pellared
     members:
-      - MadVikingGod
-      - MrAlias
-      - XSAM
-      - dashpole
-      - dmathieu
       - hanyuancheung
-      - pellared
   - name: go-instrumentation-approvers
     maintainers:
       - MrAlias
@@ -491,12 +402,9 @@ teams:
       - pdelewski
     members:
       - MadVikingGod
-      - MrAlias
       - RonFed
       - damemi
       - dineshg13
-      - edeNFed
-      - pdelewski
       - pellared
   - name: go-instrumentation-maintainers
     maintainers:
@@ -512,12 +420,9 @@ teams:
       - pdelewski
     members:
       - MadVikingGod
-      - MrAlias
       - RonFed
       - damemi
       - dineshg13
-      - edeNFed
-      - pdelewski
       - pellared
   - name: go-maintainers
     maintainers:
@@ -537,14 +442,8 @@ teams:
       - dmathieu
       - pellared
     members:
-      - MadVikingGod
-      - MrAlias
-      - XSAM
       - alolita
-      - dashpole
-      - dmathieu
       - hanyuancheung
-      - pellared
   - name: governance-committee
     maintainers:
       - austinlparker
@@ -564,8 +463,6 @@ teams:
     members:
       - Allex1
       - JaredTan95
-      - TylerHelmuth
-      - dmitryax
       - jaronoff97
       - povilasv
       - puckpuck
@@ -582,8 +479,6 @@ teams:
     members:
       - Allex1
       - JaredTan95
-      - TylerHelmuth
-      - dmitryax
       - jaronoff97
       - naseemkullah
       - povilasv
@@ -611,7 +506,6 @@ teams:
       - trask
     members:
       - breedx-splk
-      - jkwatson
       - laurit
   - name: java-contrib-approvers
     maintainers:
@@ -620,7 +514,6 @@ teams:
       - laurit
       - trask
     members:
-      - breedx-splk
       - jkwatson
       - laurit
   - name: java-contrib-maintainers
@@ -646,7 +539,6 @@ teams:
       - jkwatson
       - kenfinnigan
       - kittylyst
-      - laurit
       - oertl
       - willarmiros
   - name: java-instrumentation-approvers
@@ -658,7 +550,6 @@ teams:
       - breedx-splk
       - jeanbisutti
       - jkwatson
-      - laurit
       - zeitlinger
   - name: java-instrumentation-maintainers
     maintainers:
@@ -699,15 +590,11 @@ teams:
     members:
       - JamieDanielson
       - MSNev
-      - blumamir
       - david-luna
-      - dyladan
       - hectorhdzg
-      - legendecas
       - martinkuba
       - mwear
       - naseemkullah
-      - pichlermarc
       - pkanal
       - svetlanabrennan
       - trentm
@@ -729,16 +616,12 @@ teams:
     members:
       - JamieDanielson
       - MSNev
-      - blumamir
       - david-luna
-      - dyladan
       - hectorhdzg
-      - legendecas
       - martinkuba
       - maryliag
       - mwear
       - naseemkullah
-      - pichlermarc
       - pkanal
       - svetlanabrennan
       - trentm
@@ -749,7 +632,6 @@ teams:
     members:
       - nslaughter
       - rapphil
-      - tylerbenson
   - name: lambda-extension-maintainers
     maintainers:
       - rapphil
@@ -761,10 +643,7 @@ teams:
       - jmw51798
       - yonch
     members:
-      - bjandras
-      - jmw51798
       - samiura
-      - yonch
   - name: network-maintainers
     maintainers:
       - yonch
@@ -778,10 +657,7 @@ teams:
       - yonch
     members:
       - atoulme
-      - bjandras
-      - jmw51798
       - samiura
-      - yonch
   - name: opamp-go-approvers
     maintainers:
       - tigrannajaryan
@@ -823,8 +699,6 @@ teams:
     members:
       - aabmass
       - jeremydvoss
-      - lzchen
-      - ocelotl
       - owais
       - pmcollins
       - sanketmehta28
@@ -846,8 +720,6 @@ teams:
       - TylerHelmuth
       - dmitryax
       - frzifus
-      - jaronoff97
-      - pavolloffay
       - swiatekm
       - yuriolisa
   - name: operator-maintainers
@@ -880,7 +752,6 @@ teams:
       - Fahmy-Mohammed
       - agoallikmaa
       - beniamin
-      - bobstrecansky
       - brettmc
       - kishannsangani
       - morrisonlevi
@@ -902,7 +773,6 @@ teams:
       - Fahmy-Mohammed
       - agoallikmaa
       - beniamin
-      - bobstrecansky
       - brettmc
       - jodeev
       - kishannsangani
@@ -940,8 +810,6 @@ teams:
     members:
       - Aneurysm9
       - MadVikingGod
-      - MikeGoldsmith
-      - MrAlias
       - pellared
   - name: proto-go-maintainers
     maintainers:
@@ -955,8 +823,6 @@ teams:
     members:
       - aabmass
       - jeremydvoss
-      - lzchen
-      - ocelotl
       - owais
       - pmcollins
       - shalevr
@@ -976,9 +842,7 @@ teams:
       - arielvalentin
       - dazuma
       - ericmustin
-      - fbogsany
       - kaylareopelle
-      - mwear
       - plantfansam
       - robbkidd
       - robertlaurin
@@ -1024,11 +888,6 @@ teams:
       - jtescher
       - lalitb
     members:
-      - TommyCpp
-      - cijothomas
-      - hdost
-      - jtescher
-      - lalitb
       - shaun-cox
   - name: rust-maintainers
     maintainers:
@@ -1143,10 +1002,7 @@ teams:
     members:
       - AnaMMedina21
       - IAMebonyhope
-      - avillela
-      - danielgblanco
       - musingvirtual
-      - reese-lee
   - name: sig-end-user-maintainers
     maintainers: []
     members:
@@ -1216,11 +1072,9 @@ teams:
       - lmolkova
       - reyang
     members:
-      - AlexanderWert
       - MovieStoreGuy
       - Oberon00
       - jamesmoessis
-      - joaopgrassi
       - pyohannes
       - tedsuo
       - trisch-me
@@ -1269,10 +1123,7 @@ teams:
       - sjs994
       - srikanthccv
     members:
-      - aabmass
       - alolita
-      - sjs994
-      - srikanthccv
       - weyert
   - name: sqlcommenter-maintainers
     maintainers:
@@ -1285,7 +1136,6 @@ teams:
       - nachoBonafonte
     members:
       - bryce-b
-      - nachoBonafonte
       - vvydier
   - name: swift-maintainers
     maintainers:
