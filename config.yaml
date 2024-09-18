@@ -21,6 +21,7 @@ teams:
       - LikeTheSalad
       - breedx-splk
     members: []
+    parent: android-approvers
   - name: arrow-approvers
     maintainers:
       - jmacd
@@ -33,6 +34,7 @@ teams:
       - jmacd
     members:
       - lquerel
+    parent: arrow-approvers
   - name: assign-reviewers-action-maintainers
     maintainers:
       - dyladan
@@ -64,6 +66,7 @@ teams:
       - evan-bradley
       - jpkrohling
       - songy23
+    parent: collector-triagers
   - name: collector-contrib-approvers
     maintainers:
       - MovieStoreGuy
@@ -84,6 +87,7 @@ teams:
       - fatsheep9146
       - mwear
       - songy23
+    parent: collector-contrib-triagers
   - name: collector-contrib-maintainers
     maintainers:
       - MovieStoreGuy
@@ -97,6 +101,7 @@ teams:
       - jpkrohling
       - mx-psi
     members: []
+    parent: collector-contrib-approvers
   - name: collector-contrib-triagers
     maintainers:
       - MovieStoreGuy
@@ -127,6 +132,7 @@ teams:
       - dmitryax
       - mx-psi
     members: []
+    parent: collector-approvers
   - name: collector-triagers
     maintainers:
       - bogdandrutu
@@ -180,6 +186,7 @@ teams:
       - lalitb
       - marcalff
     members: []
+    parent: cpp-contrib-approvers
   - name: cpp-maintainers
     maintainers:
       - ThomsonTan
@@ -187,6 +194,7 @@ teams:
       - lalitb
       - marcalff
     members: []
+    parent: cpp-approvers
   - name: demo-approvers
     maintainers:
       - austinlparker
@@ -205,6 +213,7 @@ teams:
       - mviitane
       - puckpuck
     members: []
+    parent: demo-approvers
   - name: docs-approvers
     maintainers:
       - austinlparker
@@ -228,6 +237,7 @@ teams:
       - sunface
       - tensorchen
     members: []
+    parent: docs-cn-approvers
   - name: docs-ja-approvers
     maintainers:
       - cartermp
@@ -242,6 +252,7 @@ teams:
       - chalin
       - svrnm
     members: []
+    parent: docs-ja-approvers
   - name: docs-maintainers
     maintainers:
       - austinlparker
@@ -250,6 +261,7 @@ teams:
       - svrnm
       - theletterf
     members: []
+    parent: docs-approvers
   - name: docs-zh-approvers
     maintainers:
       - cartermp
@@ -265,6 +277,7 @@ teams:
       - chalin
       - svrnm
     members: []
+    parent: docs-zh-approvers
   - name: dotnet-approvers
     maintainers:
       - CodeBlanch
@@ -275,6 +288,7 @@ teams:
       - cijothomas
       - utpilla
       - vishweshbankwar
+    parent: dotnet-triagers
   - name: dotnet-contrib-approvers
     maintainers:
       - CodeBlanch
@@ -283,6 +297,7 @@ teams:
       - cijothomas
       - vishweshbankwar
     members: []
+    parent: dotnet-contrib-triagers
   - name: dotnet-contrib-maintainers
     maintainers:
       - CodeBlanch
@@ -291,6 +306,7 @@ teams:
       - cijothomas
       - vishweshbankwar
     members: []
+    parent: dotnet-contrib-approvers
   - name: dotnet-contrib-triagers
     maintainers:
       - CodeBlanch
@@ -312,6 +328,7 @@ teams:
     members:
       - RassK
       - lachmatt
+    parent: dotnet-instrumentation-triagers
   - name: dotnet-instrumentation-maintainers
     maintainers:
       - Kielek
@@ -321,6 +338,7 @@ teams:
       - rajkumar-rangaraj
       - zacharycmontoya
     members: []
+    parent: dotnet-instrumentation-approvers
   - name: dotnet-instrumentation-triagers
     maintainers:
       - Kielek
@@ -337,6 +355,7 @@ teams:
       - CodeBlanch
       - alanwest
     members: []
+    parent: dotnet-approvers
   - name: dotnet-triagers
     maintainers:
       - CodeBlanch
@@ -374,6 +393,7 @@ teams:
       - tsloughter
     members:
       - bryannaegele
+    parent: erlang-contrib-approvers
   - name: erlang-maintainers
     maintainers:
       - bryannaegele
@@ -381,6 +401,7 @@ teams:
       - hauleth
       - tsloughter
     members: []
+    parent: erlang-approvers
   - name: go-approvers
     maintainers:
       - MadVikingGod
@@ -391,6 +412,7 @@ teams:
       - pellared
     members:
       - hanyuancheung
+    parent: go-triagers
   - name: go-instrumentation-approvers
     maintainers:
       - MrAlias
@@ -402,12 +424,14 @@ teams:
       - damemi
       - dineshg13
       - pellared
+    parent: go-instrumentation-triagers
   - name: go-instrumentation-maintainers
     maintainers:
       - MrAlias
       - edeNFed
       - pdelewski
     members: []
+    parent: go-instrumentation-approvers
   - name: go-instrumentation-triagers
     maintainers:
       - MrAlias
@@ -429,6 +453,7 @@ teams:
       - dmathieu
       - pellared
     members: []
+    parent: go-approvers
   - name: go-triagers
     maintainers:
       - MadVikingGod
@@ -462,11 +487,13 @@ teams:
       - jaronoff97
       - povilasv
       - puckpuck
+    parent: helm-triagers
   - name: helm-maintainers
     maintainers:
       - TylerHelmuth
       - dmitryax
     members: []
+    parent: helm-approvers
   - name: helm-triagers
     maintainers:
       - TylerHelmuth
@@ -503,6 +530,7 @@ teams:
     members:
       - breedx-splk
       - laurit
+    parent: java-triagers
   - name: java-contrib-approvers
     maintainers:
       - breedx-splk
@@ -511,6 +539,7 @@ teams:
       - trask
     members:
       - jkwatson
+    parent: java-contrib-triagers
   - name: java-contrib-maintainers
     maintainers:
       - breedx-splk
@@ -518,6 +547,7 @@ teams:
       - laurit
       - trask
     members: []
+    parent: java-contrib-approvers
   - name: java-contrib-triagers
     maintainers:
       - breedx-splk
@@ -545,11 +575,13 @@ teams:
       - jeanbisutti
       - jkwatson
       - zeitlinger
+    parent: java-instrumentation-triagers
   - name: java-instrumentation-maintainers
     maintainers:
       - laurit
       - trask
     members: []
+    parent: java-instrumentation-approvers
   - name: java-instrumentation-triagers
     maintainers:
       - jack-berg
@@ -568,6 +600,7 @@ teams:
       - jack-berg
       - jkwatson
     members: []
+    parent: java-approvers
   - name: java-triagers
     maintainers:
       - jack-berg
@@ -591,6 +624,7 @@ teams:
       - pkanal
       - svetlanabrennan
       - trentm
+    parent: javascript-triagers
   - name: javascript-maintainers
     maintainers:
       - JamieDanielson
@@ -600,6 +634,7 @@ teams:
       - pichlermarc
       - trentm
     members: []
+    parent: javascript-approvers
   - name: javascript-triagers
     maintainers:
       - blumamir
@@ -629,6 +664,7 @@ teams:
       - rapphil
       - tylerbenson
     members: []
+    parent: lambda-extension-approvers
   - name: network-approvers
     maintainers:
       - bjandras
@@ -636,12 +672,14 @@ teams:
       - yonch
     members:
       - samiura
+    parent: network-triagers
   - name: network-maintainers
     maintainers:
       - yonch
     members:
       - bjandras
       - jmw51798
+    parent: network-approvers
   - name: network-triagers
     maintainers:
       - bjandras
@@ -663,14 +701,17 @@ teams:
       - tigrannajaryan
     members:
       - andykellr
+    parent: opamp-go-approvers
   - name: opamp-java-approvers
     maintainers:
       - tigrannajaryan
     members: []
+    parent: opamp-java-triagers
   - name: opamp-java-maintainers
     maintainers:
       - tigrannajaryan
     members: []
+    parent: opamp-java-approvers
   - name: opamp-java-triagers
     maintainers:
       - tigrannajaryan
@@ -684,6 +725,7 @@ teams:
     maintainers:
       - tigrannajaryan
     members: []
+    parent: opamp-spec-approvers
   - name: opentelemetry-python-contrib-approvers
     maintainers:
       - lzchen
@@ -703,6 +745,7 @@ teams:
       - ocelotl
       - shalevr
     members: []
+    parent: opentelemetry-python-contrib-approvers
   - name: operator-approvers
     maintainers:
       - VineethReddy02
@@ -720,6 +763,7 @@ teams:
       - pavolloffay
       - swiatekm
     members: []
+    parent: operator-approvers
   - name: operator-ta-maintainers
     maintainers:
       - Aneurysm9
@@ -750,6 +794,7 @@ teams:
       - pdelewski
       - tidal
       - zsistla
+    parent: php-triagers
   - name: php-maintainers
     maintainers:
       - bobstrecansky
@@ -757,6 +802,7 @@ teams:
       - brettmc
       - pdelewski
       - tidal
+    parent: php-approvers
   - name: php-triagers
     maintainers:
       - bobstrecansky
@@ -780,6 +826,7 @@ teams:
       - felixge
       - jhalliday
       - petethepig
+    parent: profiling-triagers
   - name: profiling-maintainers
     maintainers:
       - christos68k
@@ -787,6 +834,7 @@ teams:
       - jhalliday
       - petethepig
     members: []
+    parent: profiling-approvers
   - name: profiling-triagers
     maintainers:
       - tigrannajaryan
@@ -808,6 +856,7 @@ teams:
       - MikeGoldsmith
       - MrAlias
     members: []
+    parent: proto-go-approvers
   - name: python-approvers
     maintainers:
       - lzchen
@@ -825,6 +874,7 @@ teams:
       - lzchen
       - ocelotl
     members: []
+    parent: python-approvers
   - name: ruby-approvers
     maintainers:
       - fbogsany
@@ -865,6 +915,7 @@ teams:
       - robbkidd
       - robertlaurin
     members: []
+    parent: ruby-contrib-approvers
   - name: ruby-maintainers
     maintainers:
       - dazuma
@@ -872,6 +923,7 @@ teams:
       - mwear
       - robertlaurin
     members: []
+    parent: ruby-approvers
   - name: rust-approvers
     maintainers:
       - TommyCpp
@@ -889,6 +941,7 @@ teams:
       - jtescher
       - lalitb
     members: []
+    parent: rust-approvers
   - name: sandbox-web-js-maintainers
     maintainers:
       - MSNev
@@ -995,12 +1048,14 @@ teams:
       - AnaMMedina21
       - IAMebonyhope
       - musingvirtual
+    parent: sig-end-user-triagers
   - name: sig-end-user-maintainers
     maintainers:
       - avillela
     members:
       - danielgblanco
       - reese-lee
+    parent: sig-end-user-approvers
   - name: sig-end-user-triagers
     maintainers:
       - avillela
@@ -1015,11 +1070,13 @@ teams:
       - rrschulze
     members:
       - youngaaronm
+    parent: sig-mainframe-triagers
   - name: sig-mainframe-maintainers
     maintainers:
       - rrschulze
       - youngaaronm
     members: []
+    parent: sig-mainframe-approvers
   - name: sig-mainframe-triagers
     maintainers:
       - rrschulze
@@ -1044,6 +1101,7 @@ teams:
       - tigrannajaryan
       - yurishkuro
     members: []
+    parent: specs-triagers
   - name: specs-logs-approvers
     maintainers:
       - pellared
@@ -1080,6 +1138,7 @@ teams:
       - reyang
     members:
       - pyohannes
+    parent: specs-semconv-approvers
   - name: specs-trace-approvers
     maintainers:
       - Oberon00
@@ -1123,6 +1182,7 @@ teams:
       - sjs994
       - srikanthccv
     members: []
+    parent: sqlcommenter-approvers
   - name: swift-approvers
     maintainers:
       - nachoBonafonte
@@ -1134,6 +1194,7 @@ teams:
       - nachoBonafonte
     members:
       - bryce-b
+    parent: swift-approvers
   - name: technical-committee
     maintainers:
       - arminru
@@ -1161,3 +1222,538 @@ teams:
       - dashpole
       - punya
       - rakyll
+repositories:
+  - name: .allstar
+    teams:
+      governance-committee: write
+      sig-security-maintainers: maintain
+    visibility: public
+  - name: .github
+    teams:
+      governance-committee: write
+      technical-committee: maintain
+    visibility: public
+  - name: assign-reviewers-action
+    teams:
+      assign-reviewers-action-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: build-tools
+    teams:
+      build-tools-approvers: write
+      governance-committee: write
+      specs-approvers: write
+      specs-semconv-approvers: write
+      specs-semconv-maintainers: maintain
+      technical-committee: admin
+    visibility: public
+  - name: community
+    teams:
+      governance-committee: admin
+      technical-committee: triage
+    visibility: public
+  - name: cpp-build-tools
+    teams:
+      cpp-approvers: write
+      cpp-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: docs-cn
+    collaborators:
+      sunface: maintain
+    teams:
+      docs-cn-approvers: write
+      docs-cn-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: docs-ja
+    collaborators:
+      shirou: write
+    teams:
+      docs-ja-approvers: write
+      docs-ja-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: opamp-go
+    teams:
+      governance-committee: write
+      opamp-go-approvers: write
+      opamp-go-maintainers: maintain
+    visibility: public
+  - name: opamp-spec
+    teams:
+      governance-committee: write
+      opamp-spec-approvers: write
+      opamp-spec-maintainers: maintain
+    visibility: public
+  - name: opentelemetry-android
+    teams:
+      android-approvers: write
+      android-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-collector
+    teams:
+      collector-approvers: write
+      collector-maintainers: maintain
+      collector-triagers: write
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-collector-contrib
+    teams:
+      collector-contrib-approvers: write
+      collector-contrib-maintainers: maintain
+      collector-contrib-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-collector-releases
+    teams:
+      collector-contrib-approvers: write
+      collector-contrib-maintainers: maintain
+      collector-contrib-triagers: triage
+      governance-committee: write
+      helm-approvers: write
+      operator-approvers: write
+    visibility: public
+  - name: opentelemetry-configuration
+    teams:
+      configuration-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-cpp
+    teams:
+      cpp-approvers: write
+      cpp-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-cpp-contrib
+    teams:
+      cpp-approvers: write
+      cpp-contrib-approvers: write
+      cpp-contrib-maintainers: admin
+      cpp-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-demo
+    teams:
+      demo-approvers: write
+      demo-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-dotnet
+    collaborators:
+      opentelemetrybot: write
+    teams:
+      dotnet-approvers: write
+      dotnet-maintainers: admin
+      dotnet-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-dotnet-contrib
+    collaborators:
+      opentelemetrybot: write
+    teams:
+      dotnet-contrib-approvers: write
+      dotnet-contrib-maintainers: admin
+      dotnet-contrib-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-dotnet-instrumentation
+    teams:
+      dotnet-instrumentation-approvers: write
+      dotnet-instrumentation-maintainers: admin
+      dotnet-instrumentation-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-erlang
+    teams:
+      erlang-approvers: write
+      erlang-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-erlang-contrib
+    collaborators:
+      bryannaegele: admin
+      tsloughter: admin
+    teams:
+      erlang-approvers: write
+      erlang-contrib-approvers: write
+      erlang-contrib-maintainers: maintain
+      erlang-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-go
+    teams:
+      go-approvers: write
+      go-maintainers: maintain
+      go-triagers: write
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-go-build-tools
+    teams:
+      collector-approvers: write
+      collector-contrib-approvers: write
+      collector-contrib-maintainers: admin
+      collector-maintainers: admin
+      go-approvers: write
+      go-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-go-contrib
+    teams:
+      go-approvers: write
+      go-maintainers: admin
+      go-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-go-instrumentation
+    teams:
+      go-instrumentation-approvers: write
+      go-instrumentation-maintainers: maintain
+      go-instrumentation-triagers: triage
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-go-vanityurls
+    collaborators:
+      punya: admin
+    teams:
+      collector-maintainers: admin
+      go-maintainers: admin
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-helm-charts
+    collaborators:
+      dmitryax: admin
+    teams:
+      governance-committee: write
+      helm-approvers: write
+      helm-maintainers: maintain
+      helm-triagers: triage
+    visibility: public
+  - name: opentelemetry-java
+    teams:
+      governance-committee: write
+      java-approvers: write
+      java-maintainers: admin
+      java-triagers: triage
+    visibility: public
+  - name: opentelemetry-java-contrib
+    teams:
+      governance-committee: write
+      java-contrib-approvers: write
+      java-contrib-maintainers: admin
+      java-contrib-triagers: triage
+    visibility: public
+  - name: opentelemetry-java-examples
+    teams:
+      governance-committee: write
+      java-approvers: write
+      java-contrib-approvers: write
+      java-contrib-maintainers: admin
+      java-instrumentation-approvers: write
+      java-instrumentation-maintainers: admin
+      java-instrumentation-triagers: triage
+      java-maintainers: admin
+    visibility: public
+  - name: opentelemetry-java-instrumentation
+    collaborators:
+      opentelemetrybot: write
+    teams:
+      governance-committee: write
+      java-instrumentation-approvers: write
+      java-instrumentation-maintainers: admin
+      java-instrumentation-triagers: triage
+    visibility: public
+  - name: opentelemetry-js
+    teams:
+      governance-committee: write
+      javascript-approvers: write
+      javascript-maintainers: admin
+      javascript-triagers: triage
+    visibility: public
+  - name: opentelemetry-js-contrib
+    collaborators:
+      dyladan: admin
+      pichlermarc: admin
+    teams:
+      governance-committee: write
+      javascript-approvers: write
+      javascript-maintainers: admin
+      javascript-triagers: triage
+    visibility: public
+  - name: opentelemetry-lambda
+    teams:
+      governance-committee: write
+      lambda-extension-approvers: write
+      lambda-extension-maintainers: admin
+    visibility: public
+  - name: opentelemetry-network
+    teams:
+      governance-committee: write
+      network-approvers: write
+      network-maintainers: maintain
+      network-triagers: triage
+    visibility: public
+  - name: opentelemetry-network-build-tools
+    teams:
+      governance-committee: write
+      network-approvers: write
+      network-maintainers: maintain
+      network-triagers: triage
+    visibility: public
+  - name: opentelemetry-operator
+    collaborators:
+      openshift-ci-robot: read
+      openshift-merge-robot: read
+    teams:
+      governance-committee: write
+      operator-approvers: write
+      operator-maintainers: maintain
+      operator-ta-maintainers: write
+    visibility: public
+  - name: opentelemetry-php
+    collaborators:
+      bobstrecansky: admin
+      brettmc: admin
+      pdelewski: admin
+    teams:
+      governance-committee: write
+      php-approvers: write
+      php-maintainers: maintain
+      php-triagers: write
+    visibility: public
+  - name: opentelemetry-php-contrib
+    collaborators:
+      bobstrecansky: admin
+      brettmc: admin
+      pdelewski: admin
+    teams:
+      governance-committee: write
+      php-approvers: write
+      php-maintainers: maintain
+      php-triagers: triage
+    visibility: public
+  - name: opentelemetry-php-instrumentation
+    collaborators:
+      bobstrecansky: admin
+      brettmc: admin
+    teams:
+      governance-committee: write
+      php-approvers: write
+      php-maintainers: maintain
+      php-triagers: triage
+    visibility: public
+  - name: opentelemetry-profiling
+    teams:
+      governance-committee: write
+      profiling-approvers: write
+      profiling-maintainers: maintain
+      profiling-triagers: triage
+    visibility: public
+  - name: opentelemetry-proto
+    teams:
+      governance-committee: write
+      profiling-maintainers: write
+      specs-approvers: write
+      specs-logs-approvers: write
+      specs-metrics-approvers: write
+      specs-trace-approvers: write
+      specs-triagers: triage
+      technical-committee: maintain
+    visibility: public
+  - name: opentelemetry-proto-go
+    teams:
+      go-maintainers: admin
+      governance-committee: write
+      proto-go-approvers: write
+      proto-go-maintainers: maintain
+    visibility: public
+  - name: opentelemetry-proto-java
+    teams:
+      governance-committee: write
+      java-approvers: write
+      java-maintainers: admin
+    visibility: public
+  - name: opentelemetry-proto-profile
+    collaborators:
+      Rperry2174: maintain
+      petethepig: maintain
+    teams:
+      governance-committee: write
+    visibility: public
+  - name: opentelemetry-python
+    teams:
+      governance-committee: write
+      python-approvers: write
+      python-maintainers: admin
+    visibility: public
+  - name: opentelemetry-python-contrib
+    teams:
+      governance-committee: write
+      opentelemetry-python-contrib-approvers: write
+      opentelemetry-python-contrib-maintainers: admin
+    visibility: public
+  - name: opentelemetry-ruby
+    teams:
+      governance-committee: write
+      ruby-approvers: write
+      ruby-maintainers: admin
+    visibility: public
+  - name: opentelemetry-ruby-contrib
+    collaborators:
+      arielvalentin: admin
+      mwear: admin
+    teams:
+      governance-committee: write
+      ruby-contrib-approvers: write
+      ruby-contrib-maintainers: maintain
+      ruby-maintainers: maintain
+    visibility: public
+  - name: opentelemetry-rust
+    teams:
+      governance-committee: write
+      rust-approvers: write
+      rust-maintainers: admin
+    visibility: public
+  - name: opentelemetry-rust-contrib
+    teams:
+      governance-committee: write
+      rust-approvers: write
+      rust-maintainers: maintain
+    visibility: public
+  - name: opentelemetry-sandbox-web-js
+    collaborators:
+      MSNev: admin
+      martinkuba: admin
+    teams:
+      governance-committee: write
+      sandbox-web-js-maintainers: maintain
+    visibility: public
+  - name: opentelemetry-specification
+    teams:
+      governance-committee: write
+      specs-approvers: write
+      specs-logs-approvers: write
+      specs-metrics-approvers: write
+      specs-semconv-approvers: write
+      specs-trace-approvers: write
+      specs-triagers: write
+      technical-committee: admin
+    visibility: public
+  - name: opentelemetry-sqlcommenter
+    teams:
+      governance-committee: write
+      sqlcommenter-approvers: write
+      sqlcommenter-maintainers: admin
+    visibility: public
+  - name: opentelemetry-swift
+    teams:
+      governance-committee: write
+      swift-approvers: write
+      swift-maintainers: admin
+    visibility: public
+  - name: opentelemetry.io
+    teams:
+      blog-approvers: write
+      collector-approvers: write
+      cpp-approvers: write
+      demo-approvers: write
+      docs-approvers: write
+      docs-ja-approvers: write
+      docs-maintainers: admin
+      docs-zh-approvers: write
+      dotnet-approvers: write
+      dotnet-instrumentation-approvers: write
+      erlang-approvers: write
+      go-approvers: write
+      go-instrumentation-approvers: write
+      governance-committee: write
+      helm-approvers: write
+      java-approvers: write
+      java-instrumentation-approvers: write
+      javascript-approvers: write
+      opamp-spec-approvers: write
+      operator-approvers: write
+      php-approvers: write
+      python-approvers: write
+      ruby-approvers: write
+      ruby-contrib-approvers: write
+      rust-approvers: write
+      sig-end-user-approvers: write
+      sig-security-maintainers: write
+      specs-approvers: write
+      specs-semconv-approvers: write
+      swift-approvers: write
+    visibility: public
+  - name: otel-arrow
+    teams:
+      arrow-approvers: write
+      arrow-maintainers: maintain
+      governance-committee: write
+    visibility: public
+  - name: oteps
+    teams:
+      governance-committee: write
+      specs-approvers: write
+      specs-logs-approvers: write
+      specs-metrics-approvers: write
+      specs-trace-approvers: write
+      specs-triagers: triage
+      technical-committee: maintain
+    visibility: public
+  - name: semantic-conventions
+    teams:
+      governance-committee: write
+      semconv-cicd-approvers: write
+      semconv-container-approvers: write
+      semconv-dotnet-approver: write
+      semconv-http-approvers: write
+      semconv-jvm-approvers: write
+      semconv-k8s-approvers: write
+      semconv-llm-approvers: write
+      semconv-mobile-approvers: write
+      semconv-security-approvers: write
+      semconv-system-approvers: write
+      specs-semconv-approvers: write
+      specs-semconv-maintainers: maintain
+      technical-committee: maintain
+    visibility: public
+  - name: semantic-conventions-java
+    teams:
+      governance-committee: write
+      java-approvers: write
+      java-maintainers: maintain
+    visibility: public
+  - name: sig-end-user
+    teams:
+      governance-committee: write
+      sig-end-user-approvers: write
+      sig-end-user-maintainers: maintain
+      sig-end-user-triagers: triage
+    visibility: public
+  - name: sig-mainframe
+    teams:
+      governance-committee: write
+      sig-mainframe-approvers: write
+      sig-mainframe-maintainers: maintain
+      sig-mainframe-triagers: triage
+    visibility: public
+  - name: sig-security
+    teams:
+      governance-committee: write
+      sig-security-maintainers: maintain
+    visibility: public
+  - name: stackoverflow2slack
+    teams:
+      governance-committee: write
+    visibility: public
+  - name: weaver
+    teams:
+      governance-committee: write
+      weaver-maintainers: maintain
+    visibility: public
+  - name: wg-prometheus
+    teams:
+      governance-committee: write
+      wg-prometheus: maintain
+    visibility: public
