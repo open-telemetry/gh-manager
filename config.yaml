@@ -7,6 +7,1318 @@ teams:
       - adrielp
       - jaronoff97
       - svrnm
+  - name: android-approvers
+    maintainers:
+      - LikeTheSalad
+      - breedx-splk
+      - jack-berg
+      - trask
+    members:
+      - LikeTheSalad
+      - bidetofevil
+      - breedx-splk
+      - marandaneto
+  - name: android-maintainers
+    maintainers:
+      - LikeTheSalad
+      - breedx-splk
+    members: []
+  - name: arrow-approvers
+    maintainers:
+      - jmacd
+      - lquerel
+    members:
+      - codeboten
+      - lquerel
+      - moh-osman3
+  - name: arrow-maintainers
+    maintainers:
+      - jmacd
+    members:
+      - lquerel
+  - name: assign-reviewers-action-maintainers
+    maintainers:
+      - dyladan
+      - trask
+    members: []
+  - name: blog-approvers
+    maintainers:
+      - alolita
+      - austinlparker
+    members:
+      - SergeyKanzhelev
+      - cartermp
+      - mtwo
+      - svrnm
+  - name: build-tools-approvers
+    maintainers: []
+    members:
+      - Oberon00
+  - name: collector-approvers
+    maintainers:
+      - bogdandrutu
+      - codeboten
+      - dmitryax
+      - mx-psi
+    members:
+      - TylerHelmuth
+      - atoulme
+      - codeboten
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - jpkrohling
+      - mx-psi
+      - songy23
+  - name: collector-contrib-approvers
+    maintainers:
+      - MovieStoreGuy
+      - TylerHelmuth
+      - andrzej-stencel
+      - bogdandrutu
+      - codeboten
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - jpkrohling
+      - mx-psi
+    members:
+      - MovieStoreGuy
+      - TylerHelmuth
+      - andrzej-stencel
+      - atoulme
+      - bryan-aguilar
+      - codeboten
+      - crobert-1
+      - dashpole
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - fatsheep9146
+      - jpkrohling
+      - mwear
+      - mx-psi
+      - songy23
+  - name: collector-contrib-maintainers
+    maintainers:
+      - MovieStoreGuy
+      - TylerHelmuth
+      - andrzej-stencel
+      - bogdandrutu
+      - codeboten
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - jpkrohling
+      - mx-psi
+    members: []
+  - name: collector-contrib-triagers
+    maintainers:
+      - MovieStoreGuy
+      - TylerHelmuth
+      - andrzej-stencel
+      - bogdandrutu
+      - codeboten
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - jpkrohling
+      - mx-psi
+    members:
+      - Frapschen
+      - JaredTan95
+      - MovieStoreGuy
+      - TylerHelmuth
+      - andrzej-stencel
+      - atoulme
+      - bryan-aguilar
+      - codeboten
+      - crobert-1
+      - dashpole
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - fatsheep9146
+      - frzifus
+      - jpkrohling
+      - mwear
+      - mx-psi
+      - songy23
+  - name: collector-maintainers
+    maintainers:
+      - bogdandrutu
+      - codeboten
+      - dmitryax
+      - mx-psi
+    members: []
+  - name: collector-triagers
+    maintainers:
+      - bogdandrutu
+      - codeboten
+      - dmitryax
+      - mx-psi
+    members:
+      - Aneurysm9
+      - TylerHelmuth
+      - andrzej-stencel
+      - atoulme
+      - codeboten
+      - djaglowski
+      - dmitryax
+      - evan-bradley
+      - jpkrohling
+      - mx-psi
+      - songy23
+  - name: configuration-maintainers
+    maintainers:
+      - MrAlias
+      - codeboten
+      - jack-berg
+      - tsloughter
+    members: []
+  - name: cpp-approvers
+    maintainers:
+      - ThomsonTan
+      - esigo
+      - jsuereth
+      - lalitb
+      - marcalff
+    members:
+      - ThomsonTan
+      - esigo
+      - lalitb
+      - marcalff
+      - owent
+  - name: cpp-contrib-approvers
+    maintainers:
+      - ThomsonTan
+      - esigo
+      - jsuereth
+      - lalitb
+      - marcalff
+    members:
+      - DebajitDas
+      - ThomsonTan
+      - TomRoSystems
+      - esigo
+      - kpratyus
+      - lalitb
+      - marcalff
+      - maxgolov
+      - pyohannes
+      - seemk
+      - tobiasstadler
+  - name: cpp-contrib-maintainers
+    maintainers:
+      - ThomsonTan
+      - esigo
+      - lalitb
+      - marcalff
+    members: []
+  - name: cpp-maintainers
+    maintainers:
+      - ThomsonTan
+      - esigo
+      - lalitb
+      - marcalff
+    members: []
+  - name: demo-approvers
+    maintainers:
+      - austinlparker
+      - julianocosta89
+      - mviitane
+      - puckpuck
+      - reyang
+    members:
+      - cedricziel
+      - fatsheep9146
+      - julianocosta89
+      - mviitane
+      - puckpuck
+      - rogercoll
+      - wph95
+  - name: demo-maintainers
+    maintainers:
+      - julianocosta89
+      - mviitane
+      - puckpuck
+    members: []
+  - name: docs-approvers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - svrnm
+      - theletterf
+    members:
+      - cartermp
+      - chalin
+      - mhausenblas
+      - svrnm
+      - tedsuo
+      - theletterf
+      - tiffany76
+  - name: docs-cn-approvers
+    maintainers:
+      - sunface
+      - tensorchen
+    members:
+      - addname
+      - sunface
+      - tensorchen
+      - tydhot
+  - name: docs-cn-maintainers
+    maintainers:
+      - sunface
+      - tensorchen
+    members: []
+  - name: docs-ja-approvers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - svrnm
+    members:
+      - cartermp
+      - chalin
+      - katzchang
+      - svrnm
+      - ymotongpoo
+  - name: docs-ja-maintainers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - svrnm
+    members: []
+  - name: docs-maintainers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - svrnm
+      - theletterf
+    members: []
+  - name: docs-zh-approvers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - reyang
+      - svrnm
+    members:
+      - cartermp
+      - chalin
+      - my-git9
+      - svrnm
+      - windsonsea
+  - name: docs-zh-maintainers
+    maintainers:
+      - austinlparker
+      - cartermp
+      - chalin
+      - svrnm
+    members: []
+  - name: dotnet-approvers
+    maintainers:
+      - CodeBlanch
+      - alanwest
+      - reyang
+    members:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - utpilla
+      - vishweshbankwar
+  - name: dotnet-contrib-approvers
+    maintainers:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - vishweshbankwar
+    members:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - vishweshbankwar
+  - name: dotnet-contrib-maintainers
+    maintainers:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - vishweshbankwar
+    members: []
+  - name: dotnet-contrib-triagers
+    maintainers:
+      - CodeBlanch
+      - alanwest
+      - cijothomas
+      - utpilla
+      - vishweshbankwar
+    members:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - martinjt
+      - vishweshbankwar
+  - name: dotnet-instrumentation-approvers
+    maintainers:
+      - Kielek
+      - nrcventura
+      - pellared
+      - pjanotti
+      - rajkumar-rangaraj
+      - zacharycmontoya
+    members:
+      - Kielek
+      - RassK
+      - lachmatt
+      - nrcventura
+      - pellared
+      - pjanotti
+      - rajkumar-rangaraj
+      - zacharycmontoya
+  - name: dotnet-instrumentation-maintainers
+    maintainers:
+      - Kielek
+      - nrcventura
+      - pellared
+      - pjanotti
+      - rajkumar-rangaraj
+      - zacharycmontoya
+    members: []
+  - name: dotnet-instrumentation-triagers
+    maintainers:
+      - Kielek
+      - nrcventura
+      - pellared
+      - pjanotti
+      - rajkumar-rangaraj
+      - zacharycmontoya
+    members:
+      - Kielek
+      - RassK
+      - lachmatt
+      - nrcventura
+      - pellared
+      - pjanotti
+      - rajkumar-rangaraj
+      - zacharycmontoya
+  - name: dotnet-maintainers
+    maintainers:
+      - CodeBlanch
+      - alanwest
+    members: []
+  - name: dotnet-triagers
+    maintainers:
+      - CodeBlanch
+      - alanwest
+      - reyang
+    members:
+      - CodeBlanch
+      - Kielek
+      - alanwest
+      - cijothomas
+      - martinjt
+      - utpilla
+      - vishweshbankwar
+  - name: erlang-approvers
+    maintainers:
+      - bryannaegele
+      - deadtrickster
+      - hauleth
+      - tsloughter
+    members:
+      - GregMefford
+      - bryannaegele
+      - deadtrickster
+      - ferd
+      - hauleth
+      - tsloughter
+      - zachdaniel
+  - name: erlang-contrib-approvers
+    maintainers:
+      - bryannaegele
+      - deadtrickster
+      - hauleth
+      - tsloughter
+    members:
+      - GregMefford
+      - bryannaegele
+      - deadtrickster
+      - ferd
+      - hauleth
+      - tsloughter
+      - whatyouhide
+      - zachdaniel
+  - name: erlang-contrib-maintainers
+    maintainers:
+      - tsloughter
+    members:
+      - bryannaegele
+  - name: erlang-maintainers
+    maintainers:
+      - bryannaegele
+      - deadtrickster
+      - hauleth
+      - tsloughter
+    members: []
+  - name: go-approvers
+    maintainers:
+      - MadVikingGod
+      - MrAlias
+      - XSAM
+      - dashpole
+      - dmathieu
+      - pellared
+    members:
+      - MadVikingGod
+      - MrAlias
+      - XSAM
+      - dashpole
+      - dmathieu
+      - hanyuancheung
+      - pellared
+  - name: go-instrumentation-approvers
+    maintainers:
+      - MrAlias
+      - edeNFed
+      - pdelewski
+    members:
+      - MadVikingGod
+      - MrAlias
+      - RonFed
+      - damemi
+      - dineshg13
+      - edeNFed
+      - pdelewski
+      - pellared
+  - name: go-instrumentation-maintainers
+    maintainers:
+      - MrAlias
+      - edeNFed
+      - pdelewski
+    members: []
+  - name: go-instrumentation-triagers
+    maintainers:
+      - MrAlias
+      - edeNFed
+      - jmacd
+      - pdelewski
+    members:
+      - MadVikingGod
+      - MrAlias
+      - RonFed
+      - damemi
+      - dineshg13
+      - edeNFed
+      - pdelewski
+      - pellared
+  - name: go-maintainers
+    maintainers:
+      - MadVikingGod
+      - MrAlias
+      - XSAM
+      - dashpole
+      - dmathieu
+      - pellared
+    members: []
+  - name: go-triagers
+    maintainers:
+      - MadVikingGod
+      - MrAlias
+      - XSAM
+      - dashpole
+      - dmathieu
+      - pellared
+    members:
+      - MadVikingGod
+      - MrAlias
+      - XSAM
+      - alolita
+      - dashpole
+      - dmathieu
+      - hanyuancheung
+      - pellared
+  - name: governance-committee
+    maintainers:
+      - austinlparker
+      - trask
+    members:
+      - alolita
+      - danielgblanco
+      - dyladan
+      - jpkrohling
+      - mtwo
+      - svrnm
+      - tedsuo
+  - name: helm-approvers
+    maintainers:
+      - TylerHelmuth
+      - dmitryax
+    members:
+      - Allex1
+      - JaredTan95
+      - TylerHelmuth
+      - dmitryax
+      - jaronoff97
+      - povilasv
+      - puckpuck
+  - name: helm-maintainers
+    maintainers:
+      - TylerHelmuth
+      - dmitryax
+    members: []
+  - name: helm-triagers
+    maintainers:
+      - TylerHelmuth
+      - dmitryax
+      - tigrannajaryan
+    members:
+      - Allex1
+      - JaredTan95
+      - TylerHelmuth
+      - dmitryax
+      - jaronoff97
+      - naseemkullah
+      - povilasv
+      - puckpuck
+  - name: instr-wg
+    maintainers:
+      - arminru
+      - lmolkova
+      - tigrannajaryan
+      - trask
+    members:
+      - MovieStoreGuy
+      - denisivan0v
+      - dpauls
+      - jamesmoessis
+      - joaopgrassi
+      - kenfinnigan
+      - pyohannes
+      - tedsuo
+  - name: java-approvers
+    maintainers:
+      - jack-berg
+      - jkwatson
+      - jsuereth
+      - trask
+    members:
+      - breedx-splk
+      - jkwatson
+      - laurit
+  - name: java-contrib-approvers
+    maintainers:
+      - breedx-splk
+      - jack-berg
+      - laurit
+      - trask
+    members:
+      - breedx-splk
+      - jkwatson
+      - laurit
+  - name: java-contrib-maintainers
+    maintainers:
+      - breedx-splk
+      - jack-berg
+      - laurit
+      - trask
+    members: []
+  - name: java-contrib-triagers
+    maintainers:
+      - breedx-splk
+      - jack-berg
+      - laurit
+      - trask
+    members:
+      - Mrod1598
+      - PeterF778
+      - anosek-an
+      - breedx-splk
+      - cyrille-leclerc
+      - dehaansa
+      - jkwatson
+      - kenfinnigan
+      - kittylyst
+      - laurit
+      - oertl
+      - willarmiros
+  - name: java-instrumentation-approvers
+    maintainers:
+      - jack-berg
+      - laurit
+      - trask
+    members:
+      - breedx-splk
+      - jeanbisutti
+      - jkwatson
+      - laurit
+      - zeitlinger
+  - name: java-instrumentation-maintainers
+    maintainers:
+      - laurit
+      - trask
+    members: []
+  - name: java-instrumentation-triagers
+    maintainers:
+      - jack-berg
+      - laurit
+      - trask
+    members:
+      - JonasKunz
+      - SylvainJuge
+      - breedx-splk
+      - jeanbisutti
+      - jkwatson
+      - laurit
+      - steverao
+      - zeitlinger
+  - name: java-maintainers
+    maintainers:
+      - jack-berg
+      - jkwatson
+    members: []
+  - name: java-triagers
+    maintainers:
+      - jack-berg
+      - jkwatson
+    members:
+      - zeitlinger
+  - name: javascript-approvers
+    maintainers:
+      - blumamir
+      - dyladan
+      - legendecas
+      - pichlermarc
+    members:
+      - JamieDanielson
+      - MSNev
+      - blumamir
+      - david-luna
+      - dyladan
+      - hectorhdzg
+      - legendecas
+      - martinkuba
+      - mwear
+      - naseemkullah
+      - pichlermarc
+      - pkanal
+      - svetlanabrennan
+      - trentm
+  - name: javascript-maintainers
+    maintainers:
+      - JamieDanielson
+      - blumamir
+      - dyladan
+      - legendecas
+      - pichlermarc
+      - trentm
+    members: []
+  - name: javascript-triagers
+    maintainers:
+      - blumamir
+      - dyladan
+      - legendecas
+      - pichlermarc
+    members:
+      - JamieDanielson
+      - MSNev
+      - blumamir
+      - david-luna
+      - dyladan
+      - hectorhdzg
+      - legendecas
+      - martinkuba
+      - maryliag
+      - mwear
+      - naseemkullah
+      - pichlermarc
+      - pkanal
+      - svetlanabrennan
+      - trentm
+  - name: lambda-extension-approvers
+    maintainers:
+      - rapphil
+      - tylerbenson
+    members:
+      - nslaughter
+      - rapphil
+      - tylerbenson
+  - name: lambda-extension-maintainers
+    maintainers:
+      - rapphil
+      - tylerbenson
+    members: []
+  - name: network-approvers
+    maintainers:
+      - bjandras
+      - jmw51798
+      - yonch
+    members:
+      - bjandras
+      - jmw51798
+      - samiura
+      - yonch
+  - name: network-maintainers
+    maintainers:
+      - yonch
+    members:
+      - bjandras
+      - jmw51798
+  - name: network-triagers
+    maintainers:
+      - bjandras
+      - jmw51798
+      - yonch
+    members:
+      - atoulme
+      - bjandras
+      - jmw51798
+      - samiura
+      - yonch
+  - name: opamp-go-approvers
+    maintainers:
+      - tigrannajaryan
+    members:
+      - Aneurysm9
+      - andykellr
+      - evan-bradley
+      - srikanthccv
+  - name: opamp-go-maintainers
+    maintainers:
+      - tigrannajaryan
+    members:
+      - andykellr
+  - name: opamp-java-approvers
+    maintainers:
+      - tigrannajaryan
+    members: []
+  - name: opamp-java-maintainers
+    maintainers:
+      - tigrannajaryan
+    members: []
+  - name: opamp-java-triagers
+    maintainers:
+      - tigrannajaryan
+    members: []
+  - name: opamp-spec-approvers
+    maintainers:
+      - tigrannajaryan
+    members:
+      - andykellr
+  - name: opamp-spec-maintainers
+    maintainers:
+      - tigrannajaryan
+    members: []
+  - name: opentelemetry-python-contrib-approvers
+    maintainers:
+      - lzchen
+      - ocelotl
+    members:
+      - aabmass
+      - jeremydvoss
+      - lzchen
+      - ocelotl
+      - owais
+      - pmcollins
+      - sanketmehta28
+      - shalevr
+      - tammy-baylis-swi
+      - xrmx
+  - name: opentelemetry-python-contrib-maintainers
+    maintainers:
+      - lzchen
+      - ocelotl
+      - shalevr
+    members: []
+  - name: operator-approvers
+    maintainers:
+      - VineethReddy02
+      - jaronoff97
+      - pavolloffay
+    members:
+      - TylerHelmuth
+      - dmitryax
+      - frzifus
+      - jaronoff97
+      - pavolloffay
+      - swiatekm
+      - yuriolisa
+  - name: operator-maintainers
+    maintainers:
+      - jaronoff97
+      - pavolloffay
+      - swiatekm
+    members: []
+  - name: operator-ta-maintainers
+    maintainers: []
+    members:
+      - Aneurysm9
+      - VineethReddy02
+      - jaronoff97
+      - jpkrohling
+      - kristinapathak
+      - pavolloffay
+      - secustor
+  - name: otel-elections
+    maintainers:
+      - trask
+    members:
+      - dyladan
+      - mtwo
+  - name: php-approvers
+    maintainers:
+      - bobstrecansky
+    members:
+      - ChrisLightfootWild
+      - Fahmy-Mohammed
+      - agoallikmaa
+      - beniamin
+      - bobstrecansky
+      - brettmc
+      - kishannsangani
+      - morrisonlevi
+      - pdelewski
+      - tidal
+      - zsistla
+  - name: php-maintainers
+    maintainers:
+      - bobstrecansky
+    members:
+      - brettmc
+      - pdelewski
+      - tidal
+  - name: php-triagers
+    maintainers:
+      - bobstrecansky
+    members:
+      - ChrisLightfootWild
+      - Fahmy-Mohammed
+      - agoallikmaa
+      - beniamin
+      - bobstrecansky
+      - brettmc
+      - jodeev
+      - kishannsangani
+      - morrisonlevi
+      - pdelewski
+      - tidal
+      - zsistla
+  - name: profiling-approvers
+    maintainers:
+      - tigrannajaryan
+    members:
+      - christos68k
+      - felixge
+      - jhalliday
+      - petethepig
+  - name: profiling-maintainers
+    maintainers: []
+    members:
+      - christos68k
+      - felixge
+      - jhalliday
+      - petethepig
+  - name: profiling-triagers
+    maintainers:
+      - tigrannajaryan
+    members:
+      - christos68k
+      - felixge
+      - jhalliday
+      - petethepig
+  - name: proto-go-approvers
+    maintainers:
+      - MikeGoldsmith
+      - MrAlias
+    members:
+      - Aneurysm9
+      - MadVikingGod
+      - MikeGoldsmith
+      - MrAlias
+      - pellared
+  - name: proto-go-maintainers
+    maintainers:
+      - MikeGoldsmith
+      - MrAlias
+    members: []
+  - name: python-approvers
+    maintainers:
+      - lzchen
+      - ocelotl
+    members:
+      - aabmass
+      - jeremydvoss
+      - lzchen
+      - ocelotl
+      - owais
+      - pmcollins
+      - shalevr
+      - tammy-baylis-swi
+      - xrmx
+  - name: python-maintainers
+    maintainers:
+      - lzchen
+      - ocelotl
+    members: []
+  - name: ruby-approvers
+    maintainers:
+      - fbogsany
+      - mwear
+    members:
+      - ahayworth
+      - arielvalentin
+      - dazuma
+      - ericmustin
+      - fbogsany
+      - kaylareopelle
+      - mwear
+      - plantfansam
+      - robbkidd
+      - robertlaurin
+  - name: ruby-contrib-approvers
+    maintainers:
+      - ahayworth
+      - arielvalentin
+      - ericmustin
+      - fbogsany
+      - kaylareopelle
+      - mwear
+      - plantfansam
+      - robbkidd
+      - robertlaurin
+      - simi
+      - xuan-cao-swi
+    members: []
+  - name: ruby-contrib-maintainers
+    maintainers:
+      - ahayworth
+      - arielvalentin
+      - dazuma
+      - ericmustin
+      - fbogsany
+      - kaylareopelle
+      - mwear
+      - plantfansam
+      - robbkidd
+      - robertlaurin
+    members: []
+  - name: ruby-maintainers
+    maintainers:
+      - dazuma
+      - fbogsany
+      - mwear
+      - robertlaurin
+    members: []
+  - name: rust-approvers
+    maintainers:
+      - TommyCpp
+      - cijothomas
+      - hdost
+      - jtescher
+      - lalitb
+    members:
+      - TommyCpp
+      - cijothomas
+      - hdost
+      - jtescher
+      - lalitb
+      - shaun-cox
+  - name: rust-maintainers
+    maintainers:
+      - TommyCpp
+      - cijothomas
+      - hdost
+      - jtescher
+      - lalitb
+    members: []
+  - name: sandbox-web-js-maintainers
+    maintainers: []
+    members:
+      - MSNev
+      - dyladan
+      - martinkuba
+      - tedsuo
+  - name: semconv-cicd-approvers
+    maintainers:
+      - carlosalberto
+      - jsuereth
+    members:
+      - adrielp
+  - name: semconv-container-approvers
+    maintainers: []
+    members:
+      - ChrsMark
+      - TylerHelmuth
+      - dmitryax
+      - frzifus
+      - jinja2
+      - mx-psi
+  - name: semconv-db-approvers
+    maintainers:
+      - jack-berg
+      - lmolkova
+      - trask
+    members:
+      - alanwest
+      - jcocchi
+      - sourabh1007
+  - name: semconv-dotnet-approver
+    maintainers: []
+    members:
+      - JamesNK
+      - antonfirsov
+      - noahfalk
+  - name: semconv-http-approvers
+    maintainers:
+      - lmolkova
+      - trask
+    members: []
+  - name: semconv-jvm-approvers
+    maintainers:
+      - jack-berg
+      - trask
+    members:
+      - jonatan-ivanov
+      - mateuszrzeszutek
+  - name: semconv-k8s-approvers
+    maintainers: []
+    members:
+      - ChrsMark
+      - TylerHelmuth
+      - dashpole
+      - dmitryax
+      - frzifus
+      - jinja2
+      - mx-psi
+  - name: semconv-llm-approvers
+    maintainers:
+      - lmolkova
+    members:
+      - drewby
+      - nirga
+  - name: semconv-messaging-approvers
+    maintainers:
+      - carlosalberto
+      - lmolkova
+    members:
+      - dpauls
+      - joaopgrassi
+      - pyohannes
+  - name: semconv-mobile-approvers
+    maintainers: []
+    members:
+      - LikeTheSalad
+      - breedx-splk
+      - bryce-b
+      - nachoBonafonte
+      - surbhiia
+  - name: semconv-security-approvers
+    maintainers:
+      - jsuereth
+      - reyang
+    members:
+      - alexvanboxel
+      - mjwolf
+      - trisch-me
+  - name: semconv-system-approvers
+    maintainers: []
+    members:
+      - ChrsMark
+      - braydonk
+      - dmitryax
+      - frzifus
+      - mx-psi
+  - name: sig-end-user-approvers
+    maintainers:
+      - avillela
+      - danielgblanco
+      - reese-lee
+    members:
+      - AnaMMedina21
+      - IAMebonyhope
+      - avillela
+      - danielgblanco
+      - musingvirtual
+      - reese-lee
+  - name: sig-end-user-maintainers
+    maintainers: []
+    members:
+      - avillela
+      - danielgblanco
+      - reese-lee
+  - name: sig-end-user-triagers
+    maintainers: []
+    members:
+      - AnaMMedina21
+      - IAMebonyhope
+      - avillela
+      - danielgblanco
+      - musingvirtual
+      - reese-lee
+  - name: sig-mainframe-approvers
+    maintainers: []
+    members:
+      - rrschulze
+      - youngaaronm
+  - name: sig-mainframe-maintainers
+    maintainers: []
+    members:
+      - rrschulze
+      - youngaaronm
+  - name: sig-mainframe-triagers
+    maintainers: []
+    members:
+      - rrschulze
+      - youngaaronm
+  - name: sig-security-maintainers
+    maintainers:
+      - jpkrohling
+      - reyang
+    members:
+      - codeboten
+  - name: specs-approvers
+    maintainers:
+      - arminru
+      - bogdandrutu
+      - carlosalberto
+      - jack-berg
+      - jmacd
+      - jsuereth
+      - lmolkova
+      - reyang
+      - tigrannajaryan
+      - yurishkuro
+    members: []
+  - name: specs-logs-approvers
+    maintainers: []
+    members:
+      - kumoroku
+      - pellared
+  - name: specs-metrics-approvers
+    maintainers: []
+    members:
+      - MrAlias
+      - cijothomas
+      - lzchen
+  - name: specs-semconv-approvers
+    maintainers:
+      - AlexanderWert
+      - arminru
+      - joaopgrassi
+      - jsuereth
+      - lmolkova
+      - reyang
+    members:
+      - AlexanderWert
+      - MovieStoreGuy
+      - Oberon00
+      - jamesmoessis
+      - joaopgrassi
+      - pyohannes
+      - tedsuo
+      - trisch-me
+  - name: specs-semconv-maintainers
+    maintainers:
+      - AlexanderWert
+      - arminru
+      - joaopgrassi
+      - jsuereth
+      - lmolkova
+      - reyang
+    members:
+      - pyohannes
+  - name: specs-trace-approvers
+    maintainers: []
+    members:
+      - Oberon00
+      - iNikem
+      - tedsuo
+  - name: specs-triagers
+    maintainers:
+      - arminru
+      - austinlparker
+      - bogdandrutu
+      - carlosalberto
+      - jack-berg
+      - jmacd
+      - jsuereth
+      - lmolkova
+      - reyang
+      - tigrannajaryan
+      - trask
+      - yurishkuro
+    members:
+      - alolita
+      - danielgblanco
+      - dyladan
+      - jpkrohling
+      - mtwo
+      - svrnm
+      - tedsuo
+  - name: sqlcommenter-approvers
+    maintainers:
+      - aabmass
+      - jsuereth
+      - sjs994
+      - srikanthccv
+    members:
+      - aabmass
+      - alolita
+      - sjs994
+      - srikanthccv
+      - weyert
+  - name: sqlcommenter-maintainers
+    maintainers:
+      - aabmass
+      - sjs994
+      - srikanthccv
+    members: []
+  - name: swift-approvers
+    maintainers:
+      - nachoBonafonte
+    members:
+      - bryce-b
+      - nachoBonafonte
+      - vvydier
+  - name: swift-maintainers
+    maintainers:
+      - nachoBonafonte
+    members:
+      - bryce-b
+  - name: technical-committee
+    maintainers:
+      - arminru
+      - bogdandrutu
+      - carlosalberto
+      - jack-berg
+      - jmacd
+      - jsuereth
+      - lmolkova
+      - reyang
+      - tigrannajaryan
+      - yurishkuro
+    members: []
+  - name: weaver-maintainers
+    maintainers:
+      - jsuereth
+    members:
+      - lquerel
+  - name: wg-prometheus
+    maintainers:
+      - alolita
+      - jsuereth
+    members:
+      - Aneurysm9
+      - dashpole
+      - punya
+      - rakyll
 
 repositories:
   - name: people
