@@ -27,7 +27,6 @@ teams:
       - lquerel
     members:
       - codeboten
-      - lquerel
       - moh-osman3
   - name: arrow-maintainers
     maintainers:
@@ -49,9 +48,9 @@ teams:
       - mtwo
       - svrnm
   - name: build-tools-approvers
-    maintainers: []
-    members:
+    maintainers:
       - Oberon00
+    members: []
   - name: collector-approvers
     maintainers:
       - bogdandrutu
@@ -168,7 +167,6 @@ teams:
       - marcalff
     members:
       - DebajitDas
-      - ThomsonTan
       - TomRoSystems
       - kpratyus
       - maxgolov
@@ -215,9 +213,7 @@ teams:
       - svrnm
       - theletterf
     members:
-      - cartermp
       - mhausenblas
-      - svrnm
       - tedsuo
       - tiffany76
   - name: docs-cn-approvers
@@ -515,7 +511,6 @@ teams:
       - trask
     members:
       - jkwatson
-      - laurit
   - name: java-contrib-maintainers
     maintainers:
       - breedx-splk
@@ -533,7 +528,6 @@ teams:
       - Mrod1598
       - PeterF778
       - anosek-an
-      - breedx-splk
       - cyrille-leclerc
       - dehaansa
       - jkwatson
@@ -567,7 +561,6 @@ teams:
       - breedx-splk
       - jeanbisutti
       - jkwatson
-      - laurit
       - steverao
       - zeitlinger
   - name: java-maintainers
@@ -631,7 +624,6 @@ teams:
       - tylerbenson
     members:
       - nslaughter
-      - rapphil
   - name: lambda-extension-maintainers
     maintainers:
       - rapphil
@@ -729,9 +721,9 @@ teams:
       - swiatekm
     members: []
   - name: operator-ta-maintainers
-    maintainers: []
-    members:
+    maintainers:
       - Aneurysm9
+    members:
       - VineethReddy02
       - jaronoff97
       - jpkrohling
@@ -789,12 +781,12 @@ teams:
       - jhalliday
       - petethepig
   - name: profiling-maintainers
-    maintainers: []
-    members:
+    maintainers:
       - christos68k
       - felixge
       - jhalliday
       - petethepig
+    members: []
   - name: profiling-triagers
     maintainers:
       - tigrannajaryan
@@ -898,12 +890,12 @@ teams:
       - lalitb
     members: []
   - name: sandbox-web-js-maintainers
-    maintainers: []
-    members:
+    maintainers:
       - MSNev
       - dyladan
       - martinkuba
       - tedsuo
+    members: []
   - name: semconv-cicd-approvers
     maintainers:
       - carlosalberto
@@ -911,14 +903,14 @@ teams:
     members:
       - adrielp
   - name: semconv-container-approvers
-    maintainers: []
-    members:
+    maintainers:
       - ChrsMark
       - TylerHelmuth
       - dmitryax
       - frzifus
       - jinja2
       - mx-psi
+    members: []
   - name: semconv-db-approvers
     maintainers:
       - jack-berg
@@ -929,9 +921,9 @@ teams:
       - jcocchi
       - sourabh1007
   - name: semconv-dotnet-approver
-    maintainers: []
-    members:
+    maintainers:
       - JamesNK
+    members:
       - antonfirsov
       - noahfalk
   - name: semconv-http-approvers
@@ -947,10 +939,10 @@ teams:
       - jonatan-ivanov
       - mateuszrzeszutek
   - name: semconv-k8s-approvers
-    maintainers: []
+    maintainers:
+      - TylerHelmuth
     members:
       - ChrsMark
-      - TylerHelmuth
       - dashpole
       - dmitryax
       - frzifus
@@ -971,9 +963,9 @@ teams:
       - joaopgrassi
       - pyohannes
   - name: semconv-mobile-approvers
-    maintainers: []
-    members:
+    maintainers:
       - LikeTheSalad
+    members:
       - breedx-splk
       - bryce-b
       - nachoBonafonte
@@ -987,9 +979,9 @@ teams:
       - mjwolf
       - trisch-me
   - name: semconv-system-approvers
-    maintainers: []
-    members:
+    maintainers:
       - ChrsMark
+    members:
       - braydonk
       - dmitryax
       - frzifus
@@ -1004,32 +996,33 @@ teams:
       - IAMebonyhope
       - musingvirtual
   - name: sig-end-user-maintainers
-    maintainers: []
-    members:
+    maintainers:
       - avillela
+    members:
       - danielgblanco
       - reese-lee
   - name: sig-end-user-triagers
-    maintainers: []
+    maintainers:
+      - avillela
     members:
       - AnaMMedina21
       - IAMebonyhope
-      - avillela
       - danielgblanco
       - musingvirtual
       - reese-lee
   - name: sig-mainframe-approvers
-    maintainers: []
-    members:
+    maintainers:
       - rrschulze
+    members:
       - youngaaronm
   - name: sig-mainframe-maintainers
-    maintainers: []
-    members:
+    maintainers:
       - rrschulze
       - youngaaronm
+    members: []
   - name: sig-mainframe-triagers
-    maintainers: []
+    maintainers:
+      - rrschulze
     members:
       - rrschulze
       - youngaaronm
@@ -1053,14 +1046,14 @@ teams:
       - yurishkuro
     members: []
   - name: specs-logs-approvers
-    maintainers: []
+    maintainers:
+      - pellared
     members:
       - kumoroku
-      - pellared
   - name: specs-metrics-approvers
-    maintainers: []
-    members:
+    maintainers:
       - MrAlias
+    members:
       - cijothomas
       - lzchen
   - name: specs-semconv-approvers
@@ -1089,9 +1082,9 @@ teams:
     members:
       - pyohannes
   - name: specs-trace-approvers
-    maintainers: []
-    members:
+    maintainers:
       - Oberon00
+    members:
       - iNikem
       - tedsuo
   - name: specs-triagers
@@ -1169,10 +1162,3 @@ teams:
       - dashpole
       - punya
       - rakyll
-
-repositories:
-  - name: people
-    teams:
-      project-infra: admin
-
-    visibility: public
