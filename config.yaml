@@ -6,6 +6,7 @@ teams:
     members:
       - adrielp
       - jaronoff97
+      - svrnm
 
 repositories:
   - name: people
