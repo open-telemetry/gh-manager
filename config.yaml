@@ -1,0 +1,15 @@
+teams:
+  - name: project-infra
+    maintainers:
+      - austinlparker
+      - trask
+    members:
+      - adrielp
+      - jaronoff97
+
+repositories:
+  - name: people
+    teams:
+      project-infra: admin
+
+    visibility: public
