@@ -1024,7 +1024,6 @@ teams:
     maintainers:
       - rrschulze
     members:
-      - rrschulze
       - youngaaronm
   - name: sig-security-maintainers
     maintainers:
